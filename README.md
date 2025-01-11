@@ -402,6 +402,7 @@ git push origin <branch-name>
       Any dependencies or related issues.
    -Example:
       ```markdown
+      
       ### Summary
       - Added a dropdown menu for users to select their favorite tea type.
       - Improved user experience by personalizing checkout.
