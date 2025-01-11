@@ -71,7 +71,7 @@
    After installation, verify that Git is installed by running the following command in **Terminal**:
    ```bash
    git --version
-Instal
+
 
 
 ## **Git Configuration Guide**
@@ -84,6 +84,7 @@ Instal
    ```bash
    git config --global user.email "your_email@example.com"
 
+![Config picture](Photos/git1.png)
 
 
 ## **How to Create a GitHub Account**
@@ -169,6 +170,8 @@ Use `git status` to see the state of your working directory and staging area.
 ```bash
 git status
 ```
+![git status](Photos/git%202.png)
+
 
 ### **2. Add Files to the Staging Area**
 
@@ -183,6 +186,7 @@ To add all changes:
 ```bash
 git add .
 ```
+![git add](Photos/git%203.png)
 
 ### **3. Commit Your Changes**
 Commit your staged changes with a meaningful message using git commit:
@@ -190,6 +194,7 @@ Commit your staged changes with a meaningful message using git commit:
 ```bash
 git commit -m "Your commit message"
 ```
+![git commit](Photos/git%204.png)
 
 ### **4. Push Changes to a Remote Repository**
 
@@ -203,6 +208,7 @@ If you're working on a specific branch:
 ```bash
 git push origin <branch-name>
 ```
+![git push](Photos/git%205.png)
 ### **5. Pull Changes from a Remote Repository**
 
 To fetch and merge changes from the remote repository, use git pull:
@@ -210,6 +216,7 @@ To fetch and merge changes from the remote repository, use git pull:
 ```bash
 git pull
 ```
+![git pull](Photos/git%206.png)
 This command keeps your local repository in sync with the remote.
 
 ### **6. View Commit History**
@@ -218,6 +225,7 @@ Use git log to see a list of all commits in your repository:
 ```bash
 git log
 ```
+![git log](Photos/git%207.png)
 Press q to exit the log view.
 
 # **Commit Message Rules:**
